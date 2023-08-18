@@ -25,6 +25,16 @@ docker run -it --rm \
     -p 2222:22 \
     openconnect_box
 ```
+### Generating Base64 Encoded Password
+
+If you need to generate a base64 encoded string from your password, you can use the following command:
+
+```bash
+echo -n "YOUR_PASSWORD" | base64
+```
+
+Replace `YOUR_PASSWORD` with your actual password.
+
 
 **Note**: 
 
