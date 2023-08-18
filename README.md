@@ -41,3 +41,7 @@ Replace `YOUR_PASSWORD` with your actual password.
 - Replace `SERVER_ADDRESS`, `USERNAME`, and `MY_PASSWORD_IN_BASE64` with your respective VPN credentials.
 - The above command also mounts your `~/.ssh/authorized_keys` to the container's `/root/.ssh/authorized_keys` directory. Ensure you have the `authorized_keys` file in place if you wish to use SSH.
 - The container exposes the SSH port on `2222` of the host machine.
+
+### Disclaimer
+
+All content in this repo was generated using GPT-4 prompting!
